@@ -5,7 +5,7 @@ public class Duck extends Animal implements Flyable{
     {
         return "quack";
     }
-    public  void dive ()
+    public void dive ()
     {
         System.out.println("jom+ boong+");
     }
@@ -25,4 +25,9 @@ public class Duck extends Animal implements Flyable{
     {
         return "capable of";
     }
+    public void clean(Animal animal)
+    {
+        System.out.println(this.toString() + " is cleaning " + animal.toString());
+    }
+
 }

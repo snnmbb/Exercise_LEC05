@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Duck donald = new Duck();
+        Cow wagyu = new Cow();
+        donald.clean(wagyu);
     }
 }
