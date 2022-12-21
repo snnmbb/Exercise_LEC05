@@ -30,4 +30,10 @@ public class Duck extends Animal implements Flyable{
         System.out.println(this.toString() + " is cleaning " + animal.toString());
     }
 
+    public void clean()
+    {
+        System.out.println("null");
+    }
+
+
 }

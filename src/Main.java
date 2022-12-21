@@ -1,7 +1,10 @@
 public class Main {
     public static void main(String[] args) {
         Duck donald = new Duck();
-        Cow wagyu = new Cow();
-        donald.clean(wagyu);
+        Duck daisy = new PekingDuck();
+
+        donald.clean();
+        donald.clean(new Cow());
+        donald.clean(daisy);
     }
 }
